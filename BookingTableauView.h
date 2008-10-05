@@ -3,7 +3,7 @@
 //  Pegasus
 //
 //  Created by Michele Longhi on 24/05/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Copyright 2008 Santosha Multimedia. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

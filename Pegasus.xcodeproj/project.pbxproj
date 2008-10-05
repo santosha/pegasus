@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		770B37ED0679A11B001EADE2 /* Pegasus_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Pegasus_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* Pegasus_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Pegasus_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AA28C0430DE87D8A00E2D602 /* BookingTableauView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28C0420DE87D8A00E2D602 /* BookingTableauView.m */; };
+		AA5537C40DFA8B9300E746BC /* _MOServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537B00DFA8B9300E746BC /* _MOServices.m */; };
+		AA5537C50DFA8B9300E746BC /* _MORoomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537B20DFA8B9300E746BC /* _MORoomTypes.m */; };
+		AA5537C60DFA8B9300E746BC /* _MORooms.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537B40DFA8B9300E746BC /* _MORooms.m */; };
+		AA5537C70DFA8B9300E746BC /* _MOOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537B60DFA8B9300E746BC /* _MOOrders.m */; };
+		AA5537C80DFA8B9300E746BC /* _MOHotels.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537B80DFA8B9300E746BC /* _MOHotels.m */; };
+		AA5537C90DFA8B9300E746BC /* _MOExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537BA0DFA8B9300E746BC /* _MOExtras.m */; };
+		AA5537CA0DFA8B9300E746BC /* _MOCustomers.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537BC0DFA8B9300E746BC /* _MOCustomers.m */; };
+		AA5537CB0DFA8B9300E746BC /* _MOCompanies.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537BE0DFA8B9300E746BC /* _MOCompanies.m */; };
+		AA5537CC0DFA8B9300E746BC /* _MOCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537C00DFA8B9300E746BC /* _MOCategories.m */; };
+		AA5537CD0DFA8B9300E746BC /* _MOAllocations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537C20DFA8B9300E746BC /* _MOAllocations.m */; };
+		AA5537E20DFA8BA800E746BC /* MOServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537CE0DFA8BA800E746BC /* MOServices.m */; };
+		AA5537E30DFA8BA800E746BC /* MORoomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537D00DFA8BA800E746BC /* MORoomTypes.m */; };
+		AA5537E40DFA8BA800E746BC /* MORooms.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537D20DFA8BA800E746BC /* MORooms.m */; };
+		AA5537E50DFA8BA800E746BC /* MOOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537D40DFA8BA800E746BC /* MOOrders.m */; };
+		AA5537E60DFA8BA800E746BC /* MOHotels.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537D60DFA8BA800E746BC /* MOHotels.m */; };
+		AA5537E70DFA8BA800E746BC /* MOExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537D80DFA8BA800E746BC /* MOExtras.m */; };
+		AA5537E80DFA8BA800E746BC /* MOCustomers.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537DA0DFA8BA800E746BC /* MOCustomers.m */; };
+		AA5537E90DFA8BA800E746BC /* MOCompanies.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537DC0DFA8BA800E746BC /* MOCompanies.m */; };
+		AA5537EA0DFA8BA800E746BC /* MOCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537DE0DFA8BA800E746BC /* MOCategories.m */; };
+		AA5537EB0DFA8BA800E746BC /* MOAllocations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5537E00DFA8BA800E746BC /* MOAllocations.m */; };
+		AA94E2A50DE4501100588700 /* MainIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = AA94E2A40DE4501100588700 /* MainIcon.icns */; };
+		AA94E2BD0DE454A000588700 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94E2BC0DE454A000588700 /* WindowController.m */; };
+		AA94E3060DE458B300588700 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94E3050DE458B300588700 /* MainWindow.xib */; };
+		AA94E3360DE45BD300588700 /* BookingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94E3350DE45BD300588700 /* BookingView.xib */; };
+		AA94E34B0DE45D6100588700 /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94E34A0DE45D6100588700 /* BookingViewController.m */; };
+		AA94E34D0DE45FC900588700 /* Administrator.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94E34C0DE45FC900588700 /* Administrator.xib */; };
+		AA94E3690DE4648F00588700 /* AdministrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94E3680DE4648F00588700 /* AdministrationController.m */; };
+		AA94E4C40DE4984200588700 /* FrontofficeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94E4C30DE4984200588700 /* FrontofficeView.xib */; };
+		AA94E4C80DE4986B00588700 /* BackofficeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94E4C70DE4986B00588700 /* BackofficeView.xib */; };
+		AA94E5150DE49F2E00588700 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94E5140DE49F2E00588700 /* CustomViewController.m */; };
+		AAC014960DFBBB0C00DF5592 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC014940DFBBB0C00DF5592 /* MAAttachedWindow.m */; };
+		AAC015550DFBCA2E00DF5592 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC015540DFBCA2E00DF5592 /* PopupView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Pegasus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegasus_Prefix.pch; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* Pegasus_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Pegasus_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* Pegasus_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pegasus_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* Pegasus_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pegasus_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Pegasus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pegasus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA28C0410DE87D8A00E2D602 /* BookingTableauView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingTableauView.h; sourceTree = "<group>"; };
+		AA28C0420DE87D8A00E2D602 /* BookingTableauView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingTableauView.m; sourceTree = "<group>"; };
+		AA5537B00DFA8B9300E746BC /* _MOServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOServices.m; path = ModelClasses/_MOServices.m; sourceTree = "<group>"; };
+		AA5537B10DFA8B9300E746BC /* _MOServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOServices.h; path = ModelClasses/_MOServices.h; sourceTree = "<group>"; };
+		AA5537B20DFA8B9300E746BC /* _MORoomTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MORoomTypes.m; path = ModelClasses/_MORoomTypes.m; sourceTree = "<group>"; };
+		AA5537B30DFA8B9300E746BC /* _MORoomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MORoomTypes.h; path = ModelClasses/_MORoomTypes.h; sourceTree = "<group>"; };
+		AA5537B40DFA8B9300E746BC /* _MORooms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MORooms.m; path = ModelClasses/_MORooms.m; sourceTree = "<group>"; };
+		AA5537B50DFA8B9300E746BC /* _MORooms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MORooms.h; path = ModelClasses/_MORooms.h; sourceTree = "<group>"; };
+		AA5537B60DFA8B9300E746BC /* _MOOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOOrders.m; path = ModelClasses/_MOOrders.m; sourceTree = "<group>"; };
+		AA5537B70DFA8B9300E746BC /* _MOOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOOrders.h; path = ModelClasses/_MOOrders.h; sourceTree = "<group>"; };
+		AA5537B80DFA8B9300E746BC /* _MOHotels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOHotels.m; path = ModelClasses/_MOHotels.m; sourceTree = "<group>"; };
+		AA5537B90DFA8B9300E746BC /* _MOHotels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOHotels.h; path = ModelClasses/_MOHotels.h; sourceTree = "<group>"; };
+		AA5537BA0DFA8B9300E746BC /* _MOExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOExtras.m; path = ModelClasses/_MOExtras.m; sourceTree = "<group>"; };
+		AA5537BB0DFA8B9300E746BC /* _MOExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOExtras.h; path = ModelClasses/_MOExtras.h; sourceTree = "<group>"; };
+		AA5537BC0DFA8B9300E746BC /* _MOCustomers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOCustomers.m; path = ModelClasses/_MOCustomers.m; sourceTree = "<group>"; };
+		AA5537BD0DFA8B9300E746BC /* _MOCustomers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOCustomers.h; path = ModelClasses/_MOCustomers.h; sourceTree = "<group>"; };
+		AA5537BE0DFA8B9300E746BC /* _MOCompanies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOCompanies.m; path = ModelClasses/_MOCompanies.m; sourceTree = "<group>"; };
+		AA5537BF0DFA8B9300E746BC /* _MOCompanies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOCompanies.h; path = ModelClasses/_MOCompanies.h; sourceTree = "<group>"; };
+		AA5537C00DFA8B9300E746BC /* _MOCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOCategories.m; path = ModelClasses/_MOCategories.m; sourceTree = "<group>"; };
+		AA5537C10DFA8B9300E746BC /* _MOCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOCategories.h; path = ModelClasses/_MOCategories.h; sourceTree = "<group>"; };
+		AA5537C20DFA8B9300E746BC /* _MOAllocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _MOAllocations.m; path = ModelClasses/_MOAllocations.m; sourceTree = "<group>"; };
+		AA5537C30DFA8B9300E746BC /* _MOAllocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _MOAllocations.h; path = ModelClasses/_MOAllocations.h; sourceTree = "<group>"; };
+		AA5537CE0DFA8BA800E746BC /* MOServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOServices.m; path = ModelClasses/MOServices.m; sourceTree = "<group>"; };
+		AA5537CF0DFA8BA800E746BC /* MOServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOServices.h; path = ModelClasses/MOServices.h; sourceTree = "<group>"; };
+		AA5537D00DFA8BA800E746BC /* MORoomTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MORoomTypes.m; path = ModelClasses/MORoomTypes.m; sourceTree = "<group>"; };
+		AA5537D10DFA8BA800E746BC /* MORoomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MORoomTypes.h; path = ModelClasses/MORoomTypes.h; sourceTree = "<group>"; };
+		AA5537D20DFA8BA800E746BC /* MORooms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MORooms.m; path = ModelClasses/MORooms.m; sourceTree = "<group>"; };
+		AA5537D30DFA8BA800E746BC /* MORooms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MORooms.h; path = ModelClasses/MORooms.h; sourceTree = "<group>"; };
+		AA5537D40DFA8BA800E746BC /* MOOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOOrders.m; path = ModelClasses/MOOrders.m; sourceTree = "<group>"; };
+		AA5537D50DFA8BA800E746BC /* MOOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOOrders.h; path = ModelClasses/MOOrders.h; sourceTree = "<group>"; };
+		AA5537D60DFA8BA800E746BC /* MOHotels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOHotels.m; path = ModelClasses/MOHotels.m; sourceTree = "<group>"; };
+		AA5537D70DFA8BA800E746BC /* MOHotels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOHotels.h; path = ModelClasses/MOHotels.h; sourceTree = "<group>"; };
+		AA5537D80DFA8BA800E746BC /* MOExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOExtras.m; path = ModelClasses/MOExtras.m; sourceTree = "<group>"; };
+		AA5537D90DFA8BA800E746BC /* MOExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOExtras.h; path = ModelClasses/MOExtras.h; sourceTree = "<group>"; };
+		AA5537DA0DFA8BA800E746BC /* MOCustomers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOCustomers.m; path = ModelClasses/MOCustomers.m; sourceTree = "<group>"; };
+		AA5537DB0DFA8BA800E746BC /* MOCustomers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOCustomers.h; path = ModelClasses/MOCustomers.h; sourceTree = "<group>"; };
+		AA5537DC0DFA8BA800E746BC /* MOCompanies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOCompanies.m; path = ModelClasses/MOCompanies.m; sourceTree = "<group>"; };
+		AA5537DD0DFA8BA800E746BC /* MOCompanies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOCompanies.h; path = ModelClasses/MOCompanies.h; sourceTree = "<group>"; };
+		AA5537DE0DFA8BA800E746BC /* MOCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOCategories.m; path = ModelClasses/MOCategories.m; sourceTree = "<group>"; };
+		AA5537DF0DFA8BA800E746BC /* MOCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOCategories.h; path = ModelClasses/MOCategories.h; sourceTree = "<group>"; };
+		AA5537E00DFA8BA800E746BC /* MOAllocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOAllocations.m; path = ModelClasses/MOAllocations.m; sourceTree = "<group>"; };
+		AA5537E10DFA8BA800E746BC /* MOAllocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOAllocations.h; path = ModelClasses/MOAllocations.h; sourceTree = "<group>"; };
+		AA94E2A40DE4501100588700 /* MainIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MainIcon.icns; sourceTree = "<group>"; };
+		AA94E2A70DE4504400588700 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Italian; path = Italian.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA94E2A80DE4504F00588700 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA94E2BB0DE454A000588700 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		AA94E2BC0DE454A000588700 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		AA94E3050DE458B300588700 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		AA94E3350DE45BD300588700 /* BookingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingView.xib; sourceTree = "<group>"; };
+		AA94E3490DE45D6100588700 /* BookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		AA94E34A0DE45D6100588700 /* BookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+		AA94E34C0DE45FC900588700 /* Administrator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Administrator.xib; sourceTree = "<group>"; };
+		AA94E3670DE4648F00588700 /* AdministrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdministrationController.h; sourceTree = "<group>"; };
+		AA94E3680DE4648F00588700 /* AdministrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdministrationController.m; sourceTree = "<group>"; };
+		AA94E4C30DE4984200588700 /* FrontofficeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FrontofficeView.xib; sourceTree = "<group>"; };
+		AA94E4C70DE4986B00588700 /* BackofficeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackofficeView.xib; sourceTree = "<group>"; };
+		AA94E5130DE49F2E00588700 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		AA94E5140DE49F2E00588700 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		AAC014940DFBBB0C00DF5592 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		AAC014950DFBBB0C00DF5592 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		AAC015530DFBCA2E00DF5592 /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		AAC015540DFBCA2E00DF5592 /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAC014930DFBBADD00DF5592 /* Custom Objects */,
+				AA5537AE0DFA8B6C00E746BC /* ModelClasses */,
+				AA94E4CC0DE498A200588700 /* Frontoffice */,
+				AA94E4CB0DE4989000588700 /* Booking */,
+				77C8280B06725ACE000B614F /* Pegasus_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* Pegasus_AppDelegate.m */,
+				AA94E2BB0DE454A000588700 /* WindowController.h */,
+				AA94E2BC0DE454A000588700 /* WindowController.m */,
+				AA94E3670DE4648F00588700 /* AdministrationController.h */,
+				AA94E3680DE4648F00588700 /* AdministrationController.m */,
+				AA94E5130DE49F2E00588700 /* CustomViewController.h */,
+				AA94E5140DE49F2E00588700 /* CustomViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Pegasus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Pegasus */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Pegasus;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Pegasus_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA94E2A30DE44FF500588700 /* Graphics */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				AA94E3050DE458B300588700 /* MainWindow.xib */,
+				AA94E3350DE45BD300588700 /* BookingView.xib */,
+				AA94E34C0DE45FC900588700 /* Administrator.xib */,
+				AA94E4C30DE4984200588700 /* FrontofficeView.xib */,
+				AA94E4C70DE4986B00588700 /* BackofficeView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* Pegasus_DataModel.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AA5537AE0DFA8B6C00E746BC /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AA5537CE0DFA8BA800E746BC /* MOServices.m */,
+				AA5537CF0DFA8BA800E746BC /* MOServices.h */,
+				AA5537D00DFA8BA800E746BC /* MORoomTypes.m */,
+				AA5537D10DFA8BA800E746BC /* MORoomTypes.h */,
+				AA5537D20DFA8BA800E746BC /* MORooms.m */,
+				AA5537D30DFA8BA800E746BC /* MORooms.h */,
+				AA5537D40DFA8BA800E746BC /* MOOrders.m */,
+				AA5537D50DFA8BA800E746BC /* MOOrders.h */,
+				AA5537D60DFA8BA800E746BC /* MOHotels.m */,
+				AA5537D70DFA8BA800E746BC /* MOHotels.h */,
+				AA5537D80DFA8BA800E746BC /* MOExtras.m */,
+				AA5537D90DFA8BA800E746BC /* MOExtras.h */,
+				AA5537DA0DFA8BA800E746BC /* MOCustomers.m */,
+				AA5537DB0DFA8BA800E746BC /* MOCustomers.h */,
+				AA5537DC0DFA8BA800E746BC /* MOCompanies.m */,
+				AA5537DD0DFA8BA800E746BC /* MOCompanies.h */,
+				AA5537DE0DFA8BA800E746BC /* MOCategories.m */,
+				AA5537DF0DFA8BA800E746BC /* MOCategories.h */,
+				AA5537E00DFA8BA800E746BC /* MOAllocations.m */,
+				AA5537E10DFA8BA800E746BC /* MOAllocations.h */,
+				AA5537AF0DFA8B7300E746BC /* Internal */,
+			);
+			name = ModelClasses;
+			sourceTree = "<group>";
+		};
+		AA5537AF0DFA8B7300E746BC /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				AA5537B00DFA8B9300E746BC /* _MOServices.m */,
+				AA5537B10DFA8B9300E746BC /* _MOServices.h */,
+				AA5537B20DFA8B9300E746BC /* _MORoomTypes.m */,
+				AA5537B30DFA8B9300E746BC /* _MORoomTypes.h */,
+				AA5537B40DFA8B9300E746BC /* _MORooms.m */,
+				AA5537B50DFA8B9300E746BC /* _MORooms.h */,
+				AA5537B60DFA8B9300E746BC /* _MOOrders.m */,
+				AA5537B70DFA8B9300E746BC /* _MOOrders.h */,
+				AA5537B80DFA8B9300E746BC /* _MOHotels.m */,
+				AA5537B90DFA8B9300E746BC /* _MOHotels.h */,
+				AA5537BA0DFA8B9300E746BC /* _MOExtras.m */,
+				AA5537BB0DFA8B9300E746BC /* _MOExtras.h */,
+				AA5537BC0DFA8B9300E746BC /* _MOCustomers.m */,
+				AA5537BD0DFA8B9300E746BC /* _MOCustomers.h */,
+				AA5537BE0DFA8B9300E746BC /* _MOCompanies.m */,
+				AA5537BF0DFA8B9300E746BC /* _MOCompanies.h */,
+				AA5537C00DFA8B9300E746BC /* _MOCategories.m */,
+				AA5537C10DFA8B9300E746BC /* _MOCategories.h */,
+				AA5537C20DFA8B9300E746BC /* _MOAllocations.m */,
+				AA5537C30DFA8B9300E746BC /* _MOAllocations.h */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		AA94E2A30DE44FF500588700 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				AA94E2A40DE4501100588700 /* MainIcon.icns */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		AA94E4CB0DE4989000588700 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				AA94E3490DE45D6100588700 /* BookingViewController.h */,
+				AA94E34A0DE45D6100588700 /* BookingViewController.m */,
+				AA28C0410DE87D8A00E2D602 /* BookingTableauView.h */,
+				AA28C0420DE87D8A00E2D602 /* BookingTableauView.m */,
+				AAC015530DFBCA2E00DF5592 /* PopupView.h */,
+				AAC015540DFBCA2E00DF5592 /* PopupView.m */,
+			);
+			name = Booking;
+			sourceTree = "<group>";
+		};
+		AA94E4CC0DE498A200588700 /* Frontoffice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frontoffice;
+			sourceTree = "<group>";
+		};
+		AAC014930DFBBADD00DF5592 /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AAC014940DFBBB0C00DF5592 /* MAAttachedWindow.m */,
+				AAC014950DFBBB0C00DF5592 /* MAAttachedWindow.h */,
+			);
+			name = "Custom Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Pegasus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Pegasus" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pegasus;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Pegasus;
+			productReference = 8D1107320486CEB800E47090 /* Pegasus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Pegasus" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Pegasus */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Pegasus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				AA94E2A50DE4501100588700 /* MainIcon.icns in Resources */,
+				AA94E3060DE458B300588700 /* MainWindow.xib in Resources */,
+				AA94E3360DE45BD300588700 /* BookingView.xib in Resources */,
+				AA94E34D0DE45FC900588700 /* Administrator.xib in Resources */,
+				AA94E4C40DE4984200588700 /* FrontofficeView.xib in Resources */,
+				AA94E4C80DE4986B00588700 /* BackofficeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* Pegasus_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* Pegasus_DataModel.xcdatamodel in Sources */,
+				AA94E2BD0DE454A000588700 /* WindowController.m in Sources */,
+				AA94E34B0DE45D6100588700 /* BookingViewController.m in Sources */,
+				AA94E3690DE4648F00588700 /* AdministrationController.m in Sources */,
+				AA94E5150DE49F2E00588700 /* CustomViewController.m in Sources */,
+				AA28C0430DE87D8A00E2D602 /* BookingTableauView.m in Sources */,
+				AA5537C40DFA8B9300E746BC /* _MOServices.m in Sources */,
+				AA5537C50DFA8B9300E746BC /* _MORoomTypes.m in Sources */,
+				AA5537C60DFA8B9300E746BC /* _MORooms.m in Sources */,
+				AA5537C70DFA8B9300E746BC /* _MOOrders.m in Sources */,
+				AA5537C80DFA8B9300E746BC /* _MOHotels.m in Sources */,
+				AA5537C90DFA8B9300E746BC /* _MOExtras.m in Sources */,
+				AA5537CA0DFA8B9300E746BC /* _MOCustomers.m in Sources */,
+				AA5537CB0DFA8B9300E746BC /* _MOCompanies.m in Sources */,
+				AA5537CC0DFA8B9300E746BC /* _MOCategories.m in Sources */,
+				AA5537CD0DFA8B9300E746BC /* _MOAllocations.m in Sources */,
+				AA5537E20DFA8BA800E746BC /* MOServices.m in Sources */,
+				AA5537E30DFA8BA800E746BC /* MORoomTypes.m in Sources */,
+				AA5537E40DFA8BA800E746BC /* MORooms.m in Sources */,
+				AA5537E50DFA8BA800E746BC /* MOOrders.m in Sources */,
+				AA5537E60DFA8BA800E746BC /* MOHotels.m in Sources */,
+				AA5537E70DFA8BA800E746BC /* MOExtras.m in Sources */,
+				AA5537E80DFA8BA800E746BC /* MOCustomers.m in Sources */,
+				AA5537E90DFA8BA800E746BC /* MOCompanies.m in Sources */,
+				AA5537EA0DFA8BA800E746BC /* MOCategories.m in Sources */,
+				AA5537EB0DFA8BA800E746BC /* MOAllocations.m in Sources */,
+				AAC014960DFBBB0C00DF5592 /* MAAttachedWindow.m in Sources */,
+				AAC015550DFBCA2E00DF5592 /* PopupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA94E2A80DE4504F00588700 /* Italian */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA94E2A70DE4504400588700 /* Italian */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pegasus_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Pegasus;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pegasus_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Pegasus;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Pegasus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Pegasus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
